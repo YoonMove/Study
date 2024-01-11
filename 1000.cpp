@@ -8,8 +8,6 @@ void TestFunction()
 
 int main()
 {
-    cout << "hello world!";
-    cout << "hello world!";
-
-
+    int a = 4^2;
+    cout << a;
 }
