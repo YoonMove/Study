@@ -152,13 +152,13 @@ void CreateMonster() {
 
 	if (randomChoice == MT_Slime) {
 		monsterType = MT_Slime;
-		MonsterStat.MonsterHp = 500;
+		MonsterStat.MonsterHp = 400;
 		MonsterStat.MonsterDefence = 0;
 		MonsterStat.MonsterAttack = 3;
 	}
 	else if (randomChoice == MT_Skeleton) {
 		monsterType = MT_Slime;
-		MonsterStat.MonsterHp = 330;
+		MonsterStat.MonsterHp = 230;
 		MonsterStat.MonsterDefence = 0;
 		MonsterStat.MonsterAttack = 3;
 	}
